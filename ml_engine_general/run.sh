@@ -4,6 +4,8 @@ set -e
 
 . ./_env.sh
 
+OUTPUT=gs://${BUCKET_NAME}/${JOB_NAME}
+
 gcloud ml-engine jobs submit training ${JOB_NAME} \
     --job-dir ${OUTPUT} \
     --runtime-version 1.4 \

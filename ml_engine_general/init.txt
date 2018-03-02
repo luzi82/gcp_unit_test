@@ -1,12 +1,13 @@
-# install gcloud
+## install gcloud
 # https://cloud.google.com/sdk/docs/quickstarts
 
+## enable gcloud ml engine
 ## https://cloud.google.com/ml-engine/docs/python-guide
 # https://console.cloud.google.com/flows/enableapi?apiid=ml.googleapis.com,compute_component
 gcloud auth application-default login
 gcloud ml-engine models list
 
-# init setting.json
+## init setting.json
 
 . ./_env.sh
 gsutil mb -l ${REGION} gs://${BUCKET_NAME}
