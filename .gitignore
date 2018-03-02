@@ -1,6 +1,9 @@
 *.pyc
 /.boto
 /.project
-/ml_engine_general/env/
+/ml_engine_general/env2/
+/ml_engine_general/env3/
 /ml_engine_general/setting.json
+/success_list.log
+/task_list.log
 __pycache__

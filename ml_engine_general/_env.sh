@@ -23,4 +23,3 @@ PROJECT_ID=$(gcloud config list project --format "value(core.project)" --configu
 BUCKET_NAME=${PROJECT_ID}-main
 
 TIMESTAMP=`date +%Y%m%d%H%M%S`
-JOB_NAME=${PACKAGE_NAME}_${TIMESTAMP}
