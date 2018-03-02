@@ -15,6 +15,9 @@ fi
 
 CONFIG_ID=`jq -r '.GCP_CONFIG_ID' ${SETTING_FILE}`
 REGION=`jq -r '.GCP_REGION' ${SETTING_FILE}`
+BOTO_PATH=`jq -r '.BOTO_PATH' ${SETTING_FILE}`
+
+export BOTO_PATH
 
 PROJECT_ID=$(gcloud config list project --format "value(core.project)" --configuration ${CONFIG_ID})
 BUCKET_NAME=${PROJECT_ID}-main
