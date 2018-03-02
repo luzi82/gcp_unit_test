@@ -1,4 +1,5 @@
 {
+    "BOTO_PATH":"/boto/path/.boto",
     "GCP_CONFIG_ID":"gcloud-config-id",
     "GCP_REGION":"us-central1"
 }
