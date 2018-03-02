@@ -1,4 +1,5 @@
 *.pyc
+/.boto
 /.project
 /ml_engine_general/env/
 /ml_engine_general/setting.json
