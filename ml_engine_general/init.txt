@@ -11,9 +11,3 @@ gcloud ml-engine models list
 
 . ./_env.sh
 gsutil mb -l ${REGION} gs://${BUCKET_NAME}
-
-virtualenv -p python3 env
-
-source env/bin/activate
-
-pip install -r requirements.txt
